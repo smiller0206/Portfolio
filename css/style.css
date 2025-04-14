@@ -9705,3 +9705,34 @@ textarea.form-control {
   color: #333; 
   font-weight: bold;
 }
+.card {
+  border: 0;
+  border-radius: 0.1875rem;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.card .card-body {
+  min-height: 190px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.cc-experience .cc-experience-header {
+  padding-top: 60px;
+  padding-right: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
